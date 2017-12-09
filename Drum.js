@@ -20,7 +20,6 @@ function playSoundClick() {
       key.classList.add('playing');
       audio.currentTime = 0;
       audio.play();
-      // alert(attribute);
   };
 for (var i = 0; i < keyClass.length; i++) {
       keyClass[i].addEventListener('click', playSoundClick);
